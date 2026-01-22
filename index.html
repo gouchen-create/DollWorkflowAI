@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doll Workflow AI</title>
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/logo.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom scrollbar for better aesthetics */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #c1c1c1; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #a8a8a8; 
+      }
+      
+      /* Animation Utilities */
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes zoomIn {
+        from { transform: scale(0.95); }
+        to { transform: scale(1); }
+      }
+      .animate-in {
+        animation: fadeIn 0.2s ease-out forwards;
+      }
+      .zoom-in {
+        animation: zoomIn 0.2s ease-out forwards;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "uuid": "https://esm.sh/uuid@^13.0.0",
+    "axios": "https://esm.sh/axios@^1.13.2",
+    "path": "https://esm.sh/path@^0.12.7",
+    "url": "https://esm.sh/url@^0.11.4",
+    "multer": "https://esm.sh/multer@^2.0.2",
+    "cors": "https://esm.sh/cors@^2.8.5",
+    "ali-oss": "https://esm.sh/ali-oss@^6.23.0",
+    "express": "https://esm.sh/express@^5.2.1",
+    "fs-extra": "https://esm.sh/fs-extra@^11.3.3",
+    "fs": "https://esm.sh/fs@^0.0.1-security"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50 text-slate-900 font-sans antialiased">
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "DollWorkflowAI",
+  "description": "A single-page AI workflow application for doll customization, featuring hairstyle extraction, assembly, and replacement with multi-category image management.",
+  "requestFramePermissions": []
+}
